@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("fonts/Booter - Zero Zero.woff") format("woff"),
+         url("fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+  font-family:Raleway;
+  color: #777;
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul{
+  margin: 0;
+}
+
+.nav li{
+  display: inline;
+  text-transform:uppercase;
+}
+
+.nav a{
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover{
+  background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header{
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url(images/alaska.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.logo-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+.logo-name-large{
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.index-links div {
+  display: inline-block;
+  margin: 16px 16px 18px;
+  width: calc(100% - 50px);
+  height: 100px;
+  background-color: #56CCF2;
+  border-radius: 10px;
+}
+
+.index-links div:hover {
+  background: rgba(93, 179, 182, 0.81);
+}
+
+.index-links div h3 {
+  font-family: Raleway;
+  font-size: 28px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 30px 15px 10px 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 1px solid #56CCF2;
+}
+
+.tweet-timeline {
+  position: relative ;
+  bottom: 30px;
+  margin: 0;
+}
+
+.nick-timeline {
+  font-size: 16px;
+  color: #111;
+  position: relative;
+  top: -20px;
+  left: -120px;
+}
+
+.member-image {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+
+.main-footer {
+  background-color: #56CCF2;
+  color: white;
+  padding: .25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em;
+  cursor: pointer;
+}
+
+.timeline-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em;
+  cursor: pointer;
+  color: white;
+  background-color: white;
+  border: .5px solid #56CCF2;
+  border-radius: .3em;
+  font-weight: bold;
+  position: relative;
+}
+
+.heart-btn {
+  left:75%;
+}
+
+.retweet-btn{
+  left:75%;
+}
+
+.balloon-btn {
+  left: 61.5%;
+}
+
+button i {
+  color: red;
+}
+
+.btn-header {
+  margin: .5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2D9CDB;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.tour-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.tour-city {
+  width: 20%;
+}
+
+.tour-arena {
+  width: 38%;
+}
+
+.tour-price {
+  width:15%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #56CCF2;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2D9CDB;
+}
+
+.shop-item {
+  margin: 30px;
+  height: 40px;
+  width: 40px;
+  background: #111;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.type-here-timeline {
+  margin: 20px 0;
+}
+
+.type-here-txt {
+  font-size: 18px;
+  color: black;
+  font-weight: 900;
+}
+
+.type-here-box {
+  width:100%;
+  height: 100px;
+  border:1px solid #56CCF2;
+  background: rgba(230, 231, 245, 1);
+}
+
+.type-here-box:hover{
+    background: #fff;
+}
+
+.btn-timeline-text-here {
+  float: right;
+}
+
+.anex-btn {
+  display: in-inline-block;
+  float: right;
+  margin-right: 5px;
+}
+
+.fa-images {
+  color: #fff;
+}
+
+.fa-paperclip {
+  color: #fff;
+}
+
+.btn-timeline-end {
+  position: relative;
+  left:340px;
+  width: auto;
+  margin: 10px 10px;
+}
+
+.profile-box {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #56CCF2;
+  position: relative;
+  left:35%;
+  margin: 20px 0;
+}
+
+.nick-profile {
+  font-size: 16px;
+  color: #111;
+  position: relative;
+  left: 31%;
+  top:-8%;
+}
+
+.member-image-profile {
+  position: relative;
+  left:28%;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.details-profile {
+  position: relative;
+  top: -32px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.fa-cogs {
+  color: #fff;
+}
+
+.btn-main-profile {
+  position: relative;
+  float: right;
+  margin: 10px 10px;
+}
+
+.about-image {
+  width:100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.about-txt {
+  margin: 15px;
+  line-height: 25px;
+}
+
+/* Followers CSS */
+
+.post-box-followers {
+  display: block;
+  height: 120px;
+  width: 100%;
+  padding: 30px 30px;
+  margin-bottom: 45px;
+  background: #fff;
+  border: 1px solid #56CCF2;
+}
+
+.bio-followers {
+  position: relative ;
+  bottom: 30px;
+  margin: 0;
+}
+
+.nick-followers {
+  font-size: 11px;
+  color: #111;
+  position: relative;
+  top: -20px;
+  left: -93px;
+}
+
+.member-image-followers {
+  position: relative;
+  left: -12px;
+  top: -10px;
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.btn-followers {
+  position: relative;
+  float: right;
+  top: -15px;
+}
+
+.btn-follow {
+  background: #fff;
+  color: #56CCF2;
+  border: 1px solid #56CCF2;
+}
+
+.profile-box-followers {
+  width: 300px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #56CCF2;
+  position: relative;
+  left:35%;
+  margin: 20px 0;
+}
+
+.profile-image-followers {
+  position: relative;
+  left:28%;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.follow-label {
+  padding: 10px 10px;
+  margin: 0 8px;
+  border: 1px solid #56CCF2;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 900;
+}
+
+.follow-label:hover {
+  background: rgba(92, 171, 255, 0.48);
+}
+
+/* MAP */
+
+iframe {
+  width: 100%;
+}
+
+/* LOGIN BUTTON */
+
+.login-btn {
+  float: right;
+  position: relative;
+  top: 4px;
+  left: -10px;
+  color: white;
+  background-color: gray;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px 2px 2px 2px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #2D9CDB;
+}
